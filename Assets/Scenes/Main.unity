@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 287276614}
   - component: {fileID: 287276613}
   - component: {fileID: 287276615}
+  - component: {fileID: 287276616}
   m_Layer: 0
   m_Name: BoardManager
   m_TagString: Untagged
@@ -178,7 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EmptyCellsList: []
-  FoodPrefab: {fileID: 1870033372998220283, guid: 9aa5d7462790b1b4491f742fe4012738, type: 3}
+  FoodPrefab: {fileID: 703898709833558193, guid: 9aa5d7462790b1b4491f742fe4012738, type: 3}
   Width: 8
   Height: 8
   GroundTiles:
@@ -192,6 +193,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a7e75462f514be549b3286ad3e2cebd9, type: 2}
   BlockingTiles:
   - {fileID: 11400000, guid: 5b6426cb26bb5ac47a7d40b14c96e6a3, type: 2}
+--- !u!114 &287276616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287276612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e1367b152b0694490426c034988830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &615603686
 GameObject:
   m_ObjectHideFlags: 0
