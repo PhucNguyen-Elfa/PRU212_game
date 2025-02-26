@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FoodObject : CellObject
 {
@@ -16,9 +16,12 @@ public class FoodObject : CellObject
 
     public override void PlayerEntered()
     {
-        Destroy(gameObject);
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.IncreaseFood(5);
+        }
 
-        //increase food
+        Destroy(gameObject);
         Debug.Log("Food increased");
     }
 }
