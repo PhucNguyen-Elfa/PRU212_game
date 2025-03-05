@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75a615eda10203d468231abb908b4cd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveSpeed: 5
 --- !u!212 &615603688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -300,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 615603686}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.19, y: -0.23, z: 0}
+  m_LocalPosition: {x: -3.39, y: 0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -340,6 +341,7 @@ GameObject:
   - component: {fileID: 1059458615}
   - component: {fileID: 1059458614}
   - component: {fileID: 1059458617}
+  - component: {fileID: 1059458618}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -465,6 +467,21 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1059458618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059458613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d57562191d95bf4e83af3c55933f8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 615603689}
+  smoothSpeed: 10
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1094115389
 GameObject:
   m_ObjectHideFlags: 0

@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         m_FoodAmount -= 1;
         m_FoodLabel.text = "Food : " + m_FoodAmount;
     }
+    
 
     public void IncreaseFood(int amount)
     {
