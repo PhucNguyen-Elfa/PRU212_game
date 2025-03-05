@@ -5,22 +5,37 @@ public class PlayerController : MonoBehaviour
 {
     private BoardManager m_Board;
     private Vector2Int m_CellPosition;
-
+    private bool m_IsGameOver;
     public void Spawn(BoardManager boardManager, Vector2Int cell)
     {
         m_Board = boardManager;
         MoveTo(cell);
     }
-
+    public void GameOver()
+    {
+        m_IsGameOver = true;
+    }
     public void MoveTo(Vector2Int cell)
     {
         m_CellPosition = cell;
         transform.position = m_Board.CellToWorld(m_CellPosition);
     }
 
-
+    public void Init()
+    {
+        m_IsGameOver = false;
+    }
     private void Update()
     {
+        if (m_IsGameOver)
+        {
+            if (Keyboard.current.enterKey.wasPressedThisFrame)
+            {
+                GameManager.Instance.StartNewGame();
+            }
+
+            return;
+        }
         Vector2Int newCellTarget = m_CellPosition;
         bool hasMoved = false;
 
@@ -53,10 +68,15 @@ public class PlayerController : MonoBehaviour
             if (cellData != null && cellData.Passable)
             {
                 GameManager.Instance.TurnManager.Tick();
-                MoveTo(newCellTarget);
 
-                if (cellData.ContainedObject != null)
+                if (cellData.ContainedObject == null)
                 {
+                    MoveTo(newCellTarget);
+                }
+                else if (cellData.ContainedObject.PlayerWantsToEnter())
+                {
+                    MoveTo(newCellTarget);
+                    //Call PlayerEntered AFTER moving the player! Otherwise not in cell yet
                     cellData.ContainedObject.PlayerEntered();
                 }
             }

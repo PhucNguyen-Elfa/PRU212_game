@@ -9,6 +9,7 @@ public class BoardManager : MonoBehaviour
         public bool Passable;
         public CellObject ContainedObject;
     }
+    public ExitCellObject ExitCellPrefab;
     public List<Vector2Int> m_EmptyCellsList;
     private CellData[,] m_BoardData;
     private Tilemap m_Tilemap;
@@ -18,7 +19,7 @@ public class BoardManager : MonoBehaviour
     public int Height;
     public Tile[] GroundTiles;
     public Tile[] BlockingTiles;
-
+    public WallObject WallPrefab;
     public void Init()
     {
         m_Tilemap = GetComponentInChildren<Tilemap>();
@@ -49,6 +50,12 @@ public class BoardManager : MonoBehaviour
             }
         }
         m_EmptyCellsList.Remove(new Vector2Int(1, 1));
+
+        Vector2Int endCoord = new Vector2Int(Width - 2, Height - 2);
+        AddObject(Instantiate(ExitCellPrefab), endCoord);
+        m_EmptyCellsList.Remove(endCoord);
+
+        GenerateWall();
         GenerateFood();
     }
 
@@ -77,10 +84,64 @@ public class BoardManager : MonoBehaviour
             Vector2Int coord = m_EmptyCellsList[randomIndex];
 
             m_EmptyCellsList.RemoveAt(randomIndex);
-            CellData data = m_BoardData[coord.x, coord.y];
             FoodObject newFood = Instantiate(FoodPrefab);
-            newFood.transform.position = CellToWorld(coord);
-            data.ContainedObject = newFood;
+            AddObject(newFood, coord);
+        }
+    }
+    void GenerateWall()
+    {
+        int wallCount = Random.Range(6, 10);
+        for (int i = 0; i < wallCount; ++i)
+        {
+            int randomIndex = Random.Range(0, m_EmptyCellsList.Count);
+            Vector2Int coord = m_EmptyCellsList[randomIndex];
+
+            m_EmptyCellsList.RemoveAt(randomIndex);
+            WallObject newWall = Instantiate(WallPrefab);
+            AddObject(newWall, coord);
+        }
+    }
+
+    public void SetCellTile(Vector2Int cellIndex, Tile tile)
+    {
+        m_Tilemap.SetTile(new Vector3Int(cellIndex.x, cellIndex.y, 0), tile);
+    }
+
+    void AddObject(CellObject obj, Vector2Int coord)
+    {
+        CellData data = m_BoardData[coord.x, coord.y];
+        obj.transform.position = CellToWorld(coord);
+        data.ContainedObject = obj;
+        obj.Init(coord);
+    }
+
+    public Tile GetCellTile(Vector2Int cellIndex)
+    {
+        return m_Tilemap.GetTile<Tile>(new Vector3Int(cellIndex.x, cellIndex.y, 0));
+    }
+    public void Clean()
+    {
+        //no board data, so exit early, nothing to clean
+        if (m_BoardData == null)
+            return;
+
+
+        for (int y = 0; y < Height; ++y)
+        {
+            for (int x = 0; x < Width; ++x)
+            {
+                var cellData = m_BoardData[x, y];
+
+                if (cellData.ContainedObject != null)
+                {
+                    //CAREFUL! Destroy the GameObject NOT just cellData.ContainedObject
+                    //Otherwise what you are destroying is the JUST CellObject COMPONENT
+                    //and not the whole gameobject with sprite
+                    Destroy(cellData.ContainedObject.gameObject);
+                }
+
+                SetCellTile(new Vector2Int(x, y), null);
+            }
         }
     }
 }

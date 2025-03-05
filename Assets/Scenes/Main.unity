@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a58fb9be759aec4ea5d3c20f082addd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ExitCellPrefab: {fileID: 9079312039608571535, guid: f45668a86af2bda4bb2ef69705f4a3cc, type: 3}
   m_EmptyCellsList: []
   FoodPrefab: {fileID: 703898709833558193, guid: 9aa5d7462790b1b4491f742fe4012738, type: 3}
   Width: 8
@@ -193,6 +194,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a7e75462f514be549b3286ad3e2cebd9, type: 2}
   BlockingTiles:
   - {fileID: 11400000, guid: 5b6426cb26bb5ac47a7d40b14c96e6a3, type: 2}
+  WallPrefab: {fileID: 8875017458452505077, guid: 766aac1fbdb23d749a430a35791d27b9, type: 3}
 --- !u!114 &287276616
 MonoBehaviour:
   m_ObjectHideFlags: 0
