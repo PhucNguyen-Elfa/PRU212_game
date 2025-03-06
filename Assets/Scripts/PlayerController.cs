@@ -14,10 +14,10 @@ public class PlayerController : MonoBehaviour
 
     private Animator m_Animator;
 
-   private void Awake()
-   {
-       m_Animator = GetComponent<Animator>();
-   }
+    private void Awake()
+    {
+        m_Animator = GetComponent<Animator>();
+    }
     public void Spawn(BoardManager boardManager, Vector2Int cell)
     {
         m_Board = boardManager;
@@ -27,23 +27,23 @@ public class PlayerController : MonoBehaviour
     {
         m_IsGameOver = true;
     }
-     public void MoveTo(Vector2Int cell, bool immediate)
-   {
-       m_CellPosition = cell;
+    public void MoveTo(Vector2Int cell, bool immediate)
+    {
+        m_CellPosition = cell;
 
-       if (immediate)
-       {
-           m_IsMoving = false;
-           transform.position = m_Board.CellToWorld(m_CellPosition);
-       }
-       else
-       {
-           m_IsMoving = true;
-           m_MoveTarget = m_Board.CellToWorld(m_CellPosition);
-       }
-      
-       m_Animator.SetBool("Moving", m_IsMoving);
-   }
+        if (immediate)
+        {
+            m_IsMoving = false;
+            transform.position = m_Board.CellToWorld(m_CellPosition);
+        }
+        else
+        {
+            m_IsMoving = true;
+            m_MoveTarget = m_Board.CellToWorld(m_CellPosition);
+        }
+
+        m_Animator.SetBool("Moving", m_IsMoving);
+    }
 
     public void Init()
     {
@@ -62,47 +62,47 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-           if (m_IsMoving)
-       {
-           transform.position = Vector3.MoveTowards(transform.position, m_MoveTarget, MoveSpeed * Time.deltaTime);
-          
-           if (transform.position == m_MoveTarget)
-           {
-               m_IsMoving = false;
-               m_Animator.SetBool("Moving", false);
-               var cellData = m_Board.GetCellData(m_CellPosition);
-               if(cellData.ContainedObject != null)
-                   cellData.ContainedObject.PlayerEntered();
-           }
+        if (m_IsMoving)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, m_MoveTarget, MoveSpeed * Time.deltaTime);
 
-           return;
-       }
+            if (transform.position == m_MoveTarget)
+            {
+                m_IsMoving = false;
+                m_Animator.SetBool("Moving", false);
+                var cellData = m_Board.GetCellData(m_CellPosition);
+                if (cellData.ContainedObject != null)
+                    cellData.ContainedObject.PlayerEntered();
+            }
 
-Vector2Int newCellTarget = m_CellPosition;
-bool hasMoved = false;
+            return;
+        }
 
-if (Keyboard.current.upArrowKey.wasPressedThisFrame)
-{
-    newCellTarget.y += 1;
-    hasMoved = true;
-}
-else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
-{
-    newCellTarget.y -= 1;
-    hasMoved = true;
-}
-else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
-{
-    newCellTarget.x += 1;
-    transform.rotation = Quaternion.Euler(0, 0, 0); // Face right
-    hasMoved = true;
-}
-else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
-{
-    newCellTarget.x -= 1;
-    transform.rotation = Quaternion.Euler(0, 180, 0); // Face left
-    hasMoved = true;
-}
+        Vector2Int newCellTarget = m_CellPosition;
+        bool hasMoved = false;
+
+        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+        {
+            newCellTarget.y += 1;
+            hasMoved = true;
+        }
+        else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+        {
+            newCellTarget.y -= 1;
+            hasMoved = true;
+        }
+        else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+        {
+            newCellTarget.x += 1;
+            transform.rotation = Quaternion.Euler(0, 0, 0); // Face right
+            hasMoved = true;
+        }
+        else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+        {
+            newCellTarget.x -= 1;
+            transform.rotation = Quaternion.Euler(0, 180, 0); // Face left
+            hasMoved = true;
+        }
 
 
         if (hasMoved)

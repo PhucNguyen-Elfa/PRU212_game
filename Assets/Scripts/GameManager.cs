@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 public class GameManager : MonoBehaviour
 {
     private int m_CurrentLevel = 1;
+    private int m_LevelDefault = 1;
     public static GameManager Instance { get; private set; }
 
     public BoardManager BoardManager;
@@ -68,22 +69,29 @@ public class GameManager : MonoBehaviour
     public void NewLevel()
     {
         BoardManager.Clean();
+        m_CurrentLevel++;
+        if (m_CurrentLevel - m_LevelDefault == 2)
+        {
+            BoardManager.Width += 1;
+            BoardManager.Height += 1;
+            m_LevelDefault = m_CurrentLevel;
+        }
         BoardManager.Init();
         PlayerController.Spawn(BoardManager, new Vector2Int(1, 1));
-
-        m_CurrentLevel++;
     }
     public void StartNewGame()
     {
         m_GameOverPanel.style.visibility = Visibility.Hidden;
 
         m_CurrentLevel = 1;
+        m_LevelDefault = 1;
         m_FoodAmount = 20;
         m_FoodLabel.text = "Food : " + m_FoodAmount;
 
         BoardManager.Clean();
+        BoardManager.Width = 8;
+        BoardManager.Height = 8;
         BoardManager.Init();
-
         PlayerController.Init();
         PlayerController.Spawn(BoardManager, new Vector2Int(1, 1));
     }

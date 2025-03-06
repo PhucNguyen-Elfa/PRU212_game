@@ -125,7 +125,8 @@ public class BoardManager : MonoBehaviour
         if (m_BoardData == null)
             return;
 
-
+        Debug.Log("Height: " + Height);
+        Debug.Log("Width: " + Width);
         for (int y = 0; y < Height; ++y)
         {
             for (int x = 0; x < Width; ++x)
