@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75a615eda10203d468231abb908b4cd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveSpeed: 5
 --- !u!212 &615603688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -316,7 +317,11 @@ Animator:
   m_GameObject: {fileID: 615603686}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
+<<<<<<< Updated upstream
   m_Controller: {fileID: 9100000, guid: 52bbc718c494a344ea9323d22a575598, type: 2}
+=======
+  m_Controller: {fileID: 9100000, guid: 815b4680b648575408b10608915a0d78, type: 2}
+>>>>>>> Stashed changes
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

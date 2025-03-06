@@ -3,7 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+<<<<<<< Updated upstream
     public float MoveSpeed = 5.0f;
+=======
+    public float MoveSpeed = 3.0f;
+>>>>>>> Stashed changes
 
     private bool m_IsMoving;
     private Vector3 m_MoveTarget;
@@ -12,12 +16,26 @@ public class PlayerController : MonoBehaviour
     private bool m_IsGameOver;
 
     private Animator m_Animator;
+<<<<<<< Updated upstream
 
 
+=======
+    public void Spawn(BoardManager boardManager, Vector2Int cell)
+    {
+        m_Board = boardManager;
+        MoveTo(cell, false);
+    }
+
+    private void Awake()
+    {
+        m_Animator = GetComponent<Animator>();
+    }
+>>>>>>> Stashed changes
     public void GameOver()
     {
         m_IsGameOver = true;
     }
+<<<<<<< Updated upstream
 
        private void Awake()
    {
@@ -29,6 +47,25 @@ public class PlayerController : MonoBehaviour
         m_Board = boardManager;
         MoveTo(cell, false);
     }
+=======
+      public void MoveTo(Vector2Int cell, bool immediate)
+   {
+       m_CellPosition = cell;
+
+       if (immediate)
+       {
+           m_IsMoving = false;
+           transform.position = m_Board.CellToWorld(m_CellPosition);
+       }
+       else
+       {
+           m_IsMoving = true;
+           m_MoveTarget = m_Board.CellToWorld(m_CellPosition);
+       }
+      
+       m_Animator.SetBool("Moving", m_IsMoving);
+   }
+>>>>>>> Stashed changes
 
     public void MoveTo(Vector2Int cell, bool immediate)
    {
@@ -52,6 +89,7 @@ public class PlayerController : MonoBehaviour
     {
         m_IsMoving = false;
         m_IsGameOver = false;
+        m_IsMoving = false;
     }
     
 
@@ -74,6 +112,27 @@ public class PlayerController : MonoBehaviour
            return;
        }
 
+<<<<<<< Updated upstream
+=======
+            return;
+        }
+
+        if (m_IsMoving)
+       {
+           transform.position = Vector3.MoveTowards(transform.position, m_MoveTarget, MoveSpeed * Time.deltaTime);
+          
+           if (transform.position == m_MoveTarget)
+           {
+               m_IsMoving = false;
+               m_Animator.SetBool("Moving", false);
+               var cellData = m_Board.GetCellData(m_CellPosition);
+               if(cellData.ContainedObject != null)
+                   cellData.ContainedObject.PlayerEntered();
+           }
+
+           return;
+       }
+>>>>>>> Stashed changes
         Vector2Int newCellTarget = m_CellPosition;
         bool hasMoved = false;
 
@@ -110,7 +169,15 @@ public class PlayerController : MonoBehaviour
 
                 if (cellData.ContainedObject != null)
                 {
+<<<<<<< Updated upstream
                     cellData.ContainedObject.PlayerEntered();
+=======
+                    MoveTo(newCellTarget, false);
+                }
+                else if (cellData.ContainedObject.PlayerWantsToEnter())
+                {
+                    MoveTo(newCellTarget, false);
+>>>>>>> Stashed changes
                 }
             }
         }

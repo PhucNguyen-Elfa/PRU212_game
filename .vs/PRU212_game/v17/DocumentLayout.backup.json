@@ -1,29 +1,59 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PRU212_game\\",
+  "WorkspaceRootPath": "D:\\Project\\PRU212_game\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|d:\\pru212_game\\assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|d:\\project\\pru212_game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\Project\\PRU212_game\\assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\Project\\PRU212_game\\assets\\scripts\\cellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\Project\\PRU212_game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\Project\\PRU212_game\\assets\\scripts\\exitcellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitcellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\Project\\PRU212_game\\assets\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\cellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\Project\\PRU212_game\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRU212_game\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\Project\\PRU212_game\\assets\\scripts\\wallobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PRU212_game\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,68 +68,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 12,
+=======
+          "SelectedChildIndex": 4,
+>>>>>>> Stashed changes
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 1,
+>>>>>>> Stashed changes
               "Title": "FoodObject.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FoodObject.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\FoodObject.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAAXAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:55:12.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T01:55:12.508Z"
             },
             {
               "$type": "Document",
@@ -118,22 +115,21 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BoardManager.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoardManager.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\BoardManager.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:48:47.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T01:48:47.829Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAmwDIAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -155,11 +151,15 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAABcAAAAAAAAAAAAwwCUAAAAFAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABsAAAAAAAAAAADwvzAAAAAXAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T01:29:48.691Z",
               "EditorCaption": ""
@@ -168,13 +168,98 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "TurnManager.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\TurnManager.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\TurnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\TurnManager.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\TurnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T01:28:04.079Z"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExitCellObject.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\ExitCellObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExitCellObject.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\ExitCellObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExitCellObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:20:36.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CellObject.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\CellObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CellObject.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\CellObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CellObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T01:54:21.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FindWorkspace.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T01:39:16.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WallObject.cs",
+              "DocumentMoniker": "D:\\Project\\PRU212_game\\Assets\\Scripts\\WallObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WallObject.cs",
+              "ToolTip": "D:\\Project\\PRU212_game\\Assets\\Scripts\\WallObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WallObject.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:06:30.404Z"
+>>>>>>> Stashed changes
+            }
+          ]
+        },
+        {
+          "DockedWidth": 388,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }

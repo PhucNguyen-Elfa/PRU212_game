@@ -21,6 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
+<<<<<<< Updated upstream
       value: {fileID: -638001534, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
     - time: 0.25
       value: {fileID: -26135103, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
@@ -28,6 +29,15 @@ AnimationClip:
       value: {fileID: -1129144313, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
     - time: 0.8333333
       value: {fileID: 180249698, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
+=======
+      value: {fileID: -638001534, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+    - time: 0.13333334
+      value: {fileID: -26135103, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+    - time: 0.28333333
+      value: {fileID: -1129144313, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+    - time: 0.41666666
+      value: {fileID: 180249698, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+>>>>>>> Stashed changes
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,16 +60,27 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
+<<<<<<< Updated upstream
     - {fileID: -638001534, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
     - {fileID: -26135103, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
     - {fileID: -1129144313, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
     - {fileID: 180249698, guid: d0027a4ca8ec45f488111ee837412a02, type: 3}
+=======
+    - {fileID: -638001534, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+    - {fileID: -26135103, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+    - {fileID: -1129144313, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+    - {fileID: 180249698, guid: 96861684915c56246a18a4deec2c9a94, type: 3}
+>>>>>>> Stashed changes
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< Updated upstream
     m_StopTime: 0.84999996
+=======
+    m_StopTime: 0.43333334
+>>>>>>> Stashed changes
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

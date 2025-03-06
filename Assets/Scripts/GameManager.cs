@@ -35,10 +35,28 @@ public class GameManager : MonoBehaviour
         PlayerController.Spawn(BoardManager, new Vector2Int(1, 1));
     }
     void OnTurnHappen()
+{
+    // Ensure food gained before deducting for the turn
+    if (m_FoodAmount > 0)
     {
+<<<<<<< Updated upstream
         m_FoodAmount -= 1;
         m_FoodLabel.text = "Food : " + m_FoodAmount;
+=======
+        Debug.Log("Food available before consumption: " + m_FoodAmount);
+>>>>>>> Stashed changes
     }
+
+    // Apply food consumption at the end of turn
+    m_FoodAmount = Mathf.Max(0, m_FoodAmount - 1);
+    m_FoodLabel.text = "Food : " + m_FoodAmount;
+
+    if (m_FoodAmount <= 0)
+    {
+        GameOver();
+    }
+}
+
 
     public void IncreaseFood(int amount)
     {
