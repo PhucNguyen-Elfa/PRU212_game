@@ -78,29 +78,31 @@ public class PlayerController : MonoBehaviour
            return;
        }
 
-        Vector2Int newCellTarget = m_CellPosition;
-        bool hasMoved = false;
+Vector2Int newCellTarget = m_CellPosition;
+bool hasMoved = false;
 
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
-        {
-            newCellTarget.y += 1;
-            hasMoved = true;
-        }
-        else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
-        {
-            newCellTarget.y -= 1;
-            hasMoved = true;
-        }
-        else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
-        {
-            newCellTarget.x += 1;
-            hasMoved = true;
-        }
-        else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
-        {
-            newCellTarget.x -= 1;
-            hasMoved = true;
-        }
+if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+{
+    newCellTarget.y += 1;
+    hasMoved = true;
+}
+else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+{
+    newCellTarget.y -= 1;
+    hasMoved = true;
+}
+else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+{
+    newCellTarget.x += 1;
+    transform.rotation = Quaternion.Euler(0, 0, 0); // Face right
+    hasMoved = true;
+}
+else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+{
+    newCellTarget.x -= 1;
+    transform.rotation = Quaternion.Euler(0, 180, 0); // Face left
+    hasMoved = true;
+}
 
 
         if (hasMoved)
