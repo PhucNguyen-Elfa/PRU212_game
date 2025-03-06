@@ -42,3 +42,4 @@ public class WallObject : CellObject
     }
 
 }
+//////Tests
