@@ -27,6 +27,7 @@ public class WallObject : CellObject
         if (m_HealthPoint == 1)
         {
             Debug.Log("Tường gần bị phá hủy, chuyển sang gạch hư hại!");
+            
             GameManager.Instance.BoardManager.SetCellTile(m_Cell, DamagedObstacleTile);
         }
 

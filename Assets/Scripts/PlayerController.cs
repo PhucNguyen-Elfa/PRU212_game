@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     public void Spawn(BoardManager boardManager, Vector2Int cell)
     {
         m_Board = boardManager;
-        MoveTo(cell, false);
+        MoveTo(cell, true);
     }
     public void GameOver()
     {
@@ -116,12 +116,19 @@ public class PlayerController : MonoBehaviour
 
                 if (cellData.ContainedObject == null)
                 {
+                    
                     MoveTo(newCellTarget, false);
                 }
-                else if (cellData.ContainedObject.PlayerWantsToEnter())
+                else if (cellData.ContainedObject != null)
                 {
-                    MoveTo(newCellTarget, false);
+                    m_Animator.SetTrigger("Attack");
+
+                    if (cellData.ContainedObject.PlayerWantsToEnter())
+                    {
+                        MoveTo(newCellTarget, false);
+                    }
                 }
+
             }
         }
     }
