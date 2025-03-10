@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private BoardManager m_Board;
     private Vector2Int m_CellPosition;
     private bool m_IsGameOver;
-
+    public Vector2Int cell => m_CellPosition;
 
     private Animator m_Animator;
 

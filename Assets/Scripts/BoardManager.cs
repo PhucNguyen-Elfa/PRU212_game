@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -20,6 +20,7 @@ public class BoardManager : MonoBehaviour
     public Tile[] GroundTiles;
     public Tile[] BlockingTiles;
     public WallObject WallPrefab;
+    public Enemy EnemyPrefab;
     public void Init()
     {
         m_Tilemap = GetComponentInChildren<Tilemap>();
@@ -57,6 +58,7 @@ public class BoardManager : MonoBehaviour
 
         GenerateWall();
         GenerateFood();
+        GenerateEnemies(3);
     }
 
     public Vector3 CellToWorld(Vector2Int cellIndex)
@@ -77,7 +79,7 @@ public class BoardManager : MonoBehaviour
 
     void GenerateFood()
     {
-        int foodCount = 5;
+        int foodCount = 6;
         for (int i = 0; i < foodCount; ++i)
         {
             int randomIndex = Random.Range(0, m_EmptyCellsList.Count);
@@ -101,7 +103,21 @@ public class BoardManager : MonoBehaviour
             AddObject(newWall, coord);
         }
     }
+    void GenerateEnemies(int enemyCount = 3)
+    {
+        for (int i = 0; i < enemyCount; ++i)
+        {
+            if (m_EmptyCellsList.Count == 0)
+                break; // Nếu không còn ô trống, thoát khỏi vòng lặp
 
+            int randomIndex = Random.Range(0, m_EmptyCellsList.Count);
+            Vector2Int coord = m_EmptyCellsList[randomIndex];
+
+            m_EmptyCellsList.RemoveAt(randomIndex);
+            Enemy newEnemy = Instantiate(EnemyPrefab);
+            AddObject(newEnemy, coord);
+        }
+    }
     public void SetCellTile(Vector2Int cellIndex, Tile tile)
     {
         m_Tilemap.SetTile(new Vector3Int(cellIndex.x, cellIndex.y, 0), tile);

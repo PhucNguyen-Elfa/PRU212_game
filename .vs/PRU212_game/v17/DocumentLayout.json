@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\PRU212_game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|d:\\pru212_game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|d:\\pru212_game\\assets\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\exitcellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitcellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|d:\\pru212_game\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\cellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\foodobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\wallobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|D:\\PRU212_game\\assets\\scripts\\exitcellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718AD79B-0A9D-C3AD-0FA5-B8FAB67A202D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitcellobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRU212_game\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,27 +102,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FoodObject.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FoodObject.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FoodObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:55:12.508Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BoardManager.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BoardManager.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BoardManager.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwB8AAAArAAAAAAAAAA==",
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwBYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:48:47.829Z"
+              "WhenOpened": "2025-03-10T11:23:11.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -128,38 +121,92 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAASwEoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:42:33.924Z"
+              "WhenOpened": "2025-02-25T01:42:33.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAqwFoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T01:29:48.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CellObject.cs",
+              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\CellObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CellObject.cs",
+              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\CellObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CellObject.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T01:54:21.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WallObject.cs",
+              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\WallObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WallObject.cs",
+              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\WallObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WallObject.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:06:30.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "FoodObject.cs",
+              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FoodObject.cs",
+              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\FoodObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FoodObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T01:55:12.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TurnManager.cs",
               "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\TurnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
               "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\TurnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:28:04.079Z"
+              "WhenOpened": "2025-02-25T01:28:04.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "BoardManager.cs",
+              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoardManager.cs",
+              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\BoardManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoardManager.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwHUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T01:48:47.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ExitCellObject.cs",
               "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\ExitCellObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExitCellObject.cs",
@@ -171,19 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CellObject.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\CellObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CellObject.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\CellObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CellObject.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:54:21.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FindWorkspace.cs",
               "DocumentMoniker": "D:\\PRU212_game\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy\\Editor\\FindWorkspace.cs",
@@ -192,18 +227,6 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T01:39:16.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WallObject.cs",
-              "DocumentMoniker": "D:\\PRU212_game\\Assets\\Scripts\\WallObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WallObject.cs",
-              "ToolTip": "D:\\PRU212_game\\Assets\\Scripts\\WallObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WallObject.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:06:30.404Z"
             }
           ]
         }
