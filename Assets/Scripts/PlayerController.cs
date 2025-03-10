@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
         }
 
         m_Animator.SetBool("Moving", m_IsMoving);
+        m_Animator.ResetTrigger("Attack");
     }
 
     public void Init()
@@ -70,6 +71,7 @@ public class PlayerController : MonoBehaviour
             {
                 m_IsMoving = false;
                 m_Animator.SetBool("Moving", false);
+                m_Animator.ResetTrigger("Attack");
                 var cellData = m_Board.GetCellData(m_CellPosition);
                 if (cellData.ContainedObject != null)
                     cellData.ContainedObject.PlayerEntered();
@@ -122,9 +124,10 @@ public class PlayerController : MonoBehaviour
                 else if (cellData.ContainedObject != null)
                 {
                     m_Animator.SetTrigger("Attack");
-
+            
                     if (cellData.ContainedObject.PlayerWantsToEnter())
                     {
+                        
                         MoveTo(newCellTarget, false);
                     }
                 }
