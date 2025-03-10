@@ -1,8 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class Enemy : CellObject
 {
     public int Health = 3;
+    public float AttackMoveDistance = 0.2f; // Distance to move forward when attacking
+    public float AttackMoveDuration = 0.1f; // Time to move forward and back
 
     private int m_CurrentHealth;
     private Animator m_Animator;
@@ -31,7 +34,6 @@ public class Enemy : CellObject
 
         if (m_CurrentHealth <= 0)
         {
-            m_Animator.SetTrigger("Death");
             Destroy(gameObject, 0.5f);
         }
         else
@@ -91,6 +93,7 @@ public class Enemy : CellObject
             // Attack player if adjacent
             m_Animator.SetTrigger("Attack");
             GameManager.Instance.ChangeFood(1);
+            StartCoroutine(SmoothAttackMoveAndReturn(playerCell));
         }
         else
         {
@@ -124,15 +127,44 @@ public class Enemy : CellObject
     {
         if (moveDirection > 0 && !m_FacingRight)
         {
-            // Moving right but facing left -> flip to right
             transform.localScale = new Vector3(1, 1, 1);
             m_FacingRight = true;
         }
         else if (moveDirection < 0 && m_FacingRight)
         {
-            // Moving left but facing right -> flip to left
             transform.localScale = new Vector3(-1, 1, 1);
             m_FacingRight = false;
         }
+    }
+
+    private IEnumerator SmoothAttackMoveAndReturn(Vector2Int playerCell)
+    {
+        Vector3 originalPosition = transform.position;
+        Vector3 attackOffset = (GameManager.Instance.BoardManager.CellToWorld(playerCell) - originalPosition).normalized * AttackMoveDistance;
+        Vector3 attackPosition = originalPosition + attackOffset;
+
+        float elapsedTime = 0f;
+
+        // Move forward smoothly
+        while (elapsedTime < AttackMoveDuration)
+        {
+            transform.position = Vector3.Lerp(originalPosition, attackPosition, elapsedTime / AttackMoveDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = attackPosition;
+
+        elapsedTime = 0f;
+
+        // Move back smoothly
+        while (elapsedTime < AttackMoveDuration)
+        {
+            transform.position = Vector3.Lerp(attackPosition, originalPosition, elapsedTime / AttackMoveDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = originalPosition;
     }
 }
