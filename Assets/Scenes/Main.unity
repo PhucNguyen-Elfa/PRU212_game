@@ -195,6 +195,7 @@ MonoBehaviour:
   BlockingTiles:
   - {fileID: 11400000, guid: 5b6426cb26bb5ac47a7d40b14c96e6a3, type: 2}
   WallPrefab: {fileID: 8875017458452505077, guid: 766aac1fbdb23d749a430a35791d27b9, type: 3}
+  EnemyPrefab: {fileID: 912994890157378759, guid: 6569c52f54214134b9a64b14a5da0f7d, type: 3}
 --- !u!114 &287276616
 MonoBehaviour:
   m_ObjectHideFlags: 0

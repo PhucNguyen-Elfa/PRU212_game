@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public BoardManager BoardManager;
     public PlayerController PlayerController;
-    private int m_FoodAmount = 20;
+    private int m_FoodAmount = 50;
 
     public UIDocument UIDoc;
     private Label m_FoodLabel;
@@ -60,6 +60,16 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    public void ChangeFood(int amount)
+    {
+        m_FoodAmount -= amount;
+        if (m_FoodLabel != null)
+        {
+            m_FoodLabel.text = "Food : " + m_FoodAmount;
+        }
+
+    }
     public void GameOver()
     {
         PlayerController.GameOver();
@@ -85,7 +95,7 @@ public class GameManager : MonoBehaviour
 
         m_CurrentLevel = 1;
         m_LevelDefault = 1;
-        m_FoodAmount = 20;
+        m_FoodAmount = 50;
         m_FoodLabel.text = "Food : " + m_FoodAmount;
 
         BoardManager.Clean();
